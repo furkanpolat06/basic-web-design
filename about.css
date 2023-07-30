@@ -32,8 +32,12 @@ body{
 
 
 }
-.header .about{
-    color: #904E8B;
+.header__left span{
+    color: rgb(124, 46, 214);
+    margin-left: .8rem;
+}
+.header__left {
+    color:rgba(245, 245, 75, 0.884);
     
 }
 a:hover{

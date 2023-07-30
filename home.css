@@ -40,11 +40,11 @@ a:hover{
     cursor: pointer;
 }
 .header__left span{
-    color: rgb(98, 0, 255);
+    color: rgb(124, 46, 214);
     margin-left: .8rem;
 }
 .header__left {
-    color:yellow;
+    color:rgba(245, 245, 75, 0.884);
     
 }
 .main__banner{
@@ -151,7 +151,7 @@ footer{
     bottom: 0;
     right: 0;
     left: 0;
-    background-color:#363D43;
+    background-color:#2694f5;
     color: white;
     text-align: center;
     padding: .4rem 0;
