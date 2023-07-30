@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e6e6e6;
+}
+.header{
+  position: sticky;
+  top: 0;
+  z-index:1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#363d43;
+  color: white;
+  min-height: 4.5rem; 
+  border-bottom: 1px solid #904E8B;
+  font-weight: 600;
+  padding: 1rem;
+  
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  padding-left: 1rem;
+  margin-right: 0.7rem;
+  font-size: 0.75rem;
+}
+.header .services {
+  color: #904e8b;
+}
+a:hover {
+  cursor: pointer;
+}
+.header__left span {
+  color: #904e8b;
+  margin-left: 0.8rem;
+}
+.main__banner {
+  color: white;
+  background-color: #904e8b;
+  height: 25rem;
+  position: relative;
+}
+.main__banner img {
+  width: 100%;
+  height: 100%;
+}
+.main__banner h2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  text-align: center;
+}
+.main__banner p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  text-align: center;
+  width: 70%;
+}
+.main__subscribe {
+  background-color: #363d43;
+  color: white;
+  min-height: 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.main__subscribe--left {
+  margin-left: 1rem;
+}
+.main__subscribe--input {
+  padding: 0.4rem;
+  border-radius: 2px;
+  border: none;
+}
+.main__subscribe--button {
+  padding: 0.4rem;
+  margin-right: 0.5rem;
+  color: white;
+  background-color: rgb(255, 102, 0);
+  border: none;
+  border-radius: 2px;
+}
+.main__subscribe--button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.main__png {
+  display: flex;
+  /* justify-content: space-around; */
+}
+.main__png--html {
+  width: 100%;
+
+  text-align: center;
+}
+.main__png--css {
+  width: 100%;
+
+  text-align: center;
+}
+.main__png--graphic {
+  width: 100%;
+  text-align: center;
+}
+
+.main__png img,
+h6,
+p {
+  margin-top: 1.5rem;
+}
+.main__png h6 {
+  font-size: 1.2rem;
+}
+.main__png p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.main__png img {
+  height: 9rem;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color:#363D43;
+  color: white;
+  text-align: center;
+  padding: .4rem 0;
+  
+}
+footer p{
+  font-size: .75rem;
+  margin-bottom: .3rem;
+  color: rgba(255, 255, 255, 0.945);
+}
+footer img{
+  width: 10rem;
+}
+
+/* !Services CSS */
+.main__services {
+  display: flex;
+  background-color: #f4f4f4;
+}
+.main__services--left {
+  margin: 2rem 2rem;
+  width: 70%;
+}
+.paragraph {
+  margin-bottom: 0.3rem;
+  background-color: #e6e6e6;
+  padding: 2.5rem 1.5rem;
+  border: 2px solid rgba(0, 0, 0, 0.267);
+  box-shadow: -4px 2px 5px rgba(0, 0, 0, 0.377);
+  border-radius: 5px;
+}
+.paragraph h5 {
+  font-size: 1.5rem;
+}
+.box1 {
+  margin-top: 2rem;
+}
+.main__services--right {
+  background-color: #363d43;
+  height: 60%;
+  
+
+  margin: 2rem 2rem;
+  padding: 2rem 0.5rem;
+  color: white;
+}
+.main__services--right h3 {
+  margin: 2rem 0.5rem;
+}
+.main__services--right input {
+  width: 30rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+.services__button {
+  padding: 0.8rem 1.7rem;
+  margin-top: 0.5rem;
+  background-color: #e8491d;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+.services__button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+textarea::placeholder {
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+@media screen and (max-width: 700px)  {
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .header__left{
+    margin-bottom: 1rem;
+  }
+  .main__subscribe{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+  
+  }
+  .main__subscribe--left{
+    margin-bottom: .5rem;
+  }
+  
+}
+@media screen and (max-width: 1000px){
+  .main__services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem .5rem;
+    
+   
+  }
+  .main__services--right{
+    min-width: 490px;
+    max-width: 500px;
+    margin: auto;
+
+  }
+  .main__services--left{
+  
+    min-width: 490px;
+    max-width: 500px;
+    margin: auto;
+    
+
+  }
+}

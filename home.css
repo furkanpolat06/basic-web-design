@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6E6E6;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0dcfd6;
+    color: white;
+    min-height: 4.5rem; 
+    border-bottom: 1px solid #994192ad;
+    font-weight: 600;
+    padding: 1rem;
+    
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    margin-right: .7rem;
+    font-size: .75rem;
+
+
+}
+.header .home{
+    color: yellow;
+    
+}
+a:hover{
+    cursor: pointer;
+}
+.header__left span{
+    color: yellow;
+    margin-left: .8rem;
+}
+.main__banner{
+color: white;
+background-color:#904E8B;
+height: 25rem;
+position: relative;
+ 
+}
+.main__banner img{
+    width: 100%;
+    height: 100%;
+    
+}
+.main__banner h2{
+    position: absolute;
+    top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-size: 2.5rem;
+text-align: center;
+}
+.main__banner p{
+    position: absolute;
+    top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .95rem;
+  text-align: center;
+  width: 70%;
+}
+.main__subscribe{
+    background-color:#363D43;
+    color: white;
+    min-height: 4.8rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 1rem;
+    
+}
+.main__subscribe--left{
+    margin-left:1rem ;
+    
+}
+.main__subscribe--input{
+    padding: .4rem;
+    border-radius: 2px;
+    border: none;
+}
+.main__subscribe--button{
+    padding: .4rem;
+    margin-right: .5rem;
+    color: white;
+    background-color: rgb(255, 102, 0);
+    border: none;
+    border-radius: 2px;
+
+}
+.main__subscribe--button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.main__png{
+    display: flex;
+    /* justify-content: space-around; */
+    
+   
+}
+.main__png--html{
+    
+    width: 100%;
+    
+
+    text-align: center;
+
+}
+.main__png--css{ 
+    width: 100%;
+
+
+    text-align: center;
+}
+.main__png--graphic{ 
+    width: 100%;
+    text-align: center;
+}
+
+.main__png img, h6, p{
+    margin-top: 1.5rem ;
+}
+.main__png h6{
+    font-size: 1.2rem;
+}
+.main__png p{
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+.main__png img{
+    height: 9rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:#363D43;
+    color: white;
+    text-align: center;
+    padding: .4rem 0;
+    
+}
+footer p{
+    font-size: .75rem;
+    margin-bottom: .3rem;
+    color: rgba(255, 255, 255, 0.945);
+}
+footer img{
+    width: 10rem;
+}
