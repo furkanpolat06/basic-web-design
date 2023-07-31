@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#2694f5;
+    background-color:#13a5e9;
     color: white;
     min-height: 4.5rem; 
     border-bottom: 1px solid #994192ad;
@@ -40,11 +40,12 @@ a:hover{
     cursor: pointer;
 }
 .header__left span{
-    color: rgb(124, 46, 214);
+   
+    color:#ba55d3;
     margin-left: .8rem;
 }
 .header__left {
-    color:rgba(245, 245, 75, 0.884);
+    color:#fcd116;
     
 }
 .main__banner{
@@ -77,7 +78,7 @@ text-align: center;
   width: 70%;
 }
 .main__subscribe{
-    background-color:#2694f5;
+    background-color:#13a5e9c7;
     color: white;
     min-height: 4.8rem;
     display: flex;
@@ -151,7 +152,7 @@ footer{
     bottom: 0;
     right: 0;
     left: 0;
-    background-color:#2694f5;
+    background-color:#13a5e9;
     color: white;
     text-align: center;
     padding: .4rem 0;

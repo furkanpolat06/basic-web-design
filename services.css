@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:#363d43;
+   background-color:#13a5e9;;
   color: white;
   min-height: 4.5rem; 
   border-bottom: 1px solid #904E8B;
@@ -29,15 +29,21 @@ body {
   margin-right: 0.7rem;
   font-size: 0.75rem;
 }
-.header .services {
-  color: #904e8b;
+.header .services{
+  color: rgba(17, 0, 255, 0.884);
+  
 }
 a:hover {
   cursor: pointer;
 }
-.header__left span {
-  color: #904e8b;
-  margin-left: 0.8rem;
+.header__left span{
+   
+  color:#ba55d3;
+  margin-left: .8rem;
+}
+.header__left {
+  color:#fcd116;
+  
 }
 .main__banner {
   color: white;
@@ -67,7 +73,7 @@ a:hover {
   width: 70%;
 }
 .main__subscribe {
-  background-color: #363d43;
+  background-color:#13a5e9c7;
   color: white;
   min-height: 4.8rem;
   display: flex;
@@ -134,7 +140,8 @@ footer{
   bottom: 0;
   right: 0;
   left: 0;
-  background-color:#363D43;
+  background-color:#13a5e9;;
+
   color: white;
   text-align: center;
   padding: .4rem 0;
@@ -160,7 +167,8 @@ footer img{
 }
 .paragraph {
   margin-bottom: 0.3rem;
-  background-color: #e6e6e6;
+  background-color:#1084e949;
+
   padding: 2.5rem 1.5rem;
   border: 2px solid rgba(0, 0, 0, 0.267);
   box-shadow: -4px 2px 5px rgba(0, 0, 0, 0.377);
@@ -173,7 +181,8 @@ footer img{
   margin-top: 2rem;
 }
 .main__services--right {
-  background-color: #363d43;
+  background-color:#1084e9;
+
   height: 60%;
   
 
