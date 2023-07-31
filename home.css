@@ -45,7 +45,7 @@ a:hover{
     margin-left: .8rem;
 }
 .header__left {
-    color:#fcd116;
+     color:#fcd116;
     
 }
 .main__banner{
@@ -147,22 +147,20 @@ text-align: center;
 .main__png img{
     height: 9rem;
 }
-footer{
+.footer{
     position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color:#13a5e9;
+    background-color:#13a5e9;;
+  
     color: white;
     text-align: center;
-    padding: .4rem 0;
+    padding: .4rem;
     
-}
-footer p{
-    font-size: .75rem;
-    margin-bottom: .3rem;
+  }
+.footer p{
+    font-size: .9rem;
+    margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.945);
-}
-footer img{
-    width: 10rem;
-}
+  }
